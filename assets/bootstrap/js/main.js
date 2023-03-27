@@ -1,6 +1,6 @@
 $(document).ready(function(){
     const slider = $("#slider").owlCarousel({
-
+        items:1,
         loop:true,
         margin:50,
 
