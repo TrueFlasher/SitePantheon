@@ -25,3 +25,30 @@ $(document).ready(function(){
         }
     });
 });
+
+
+
+
+const div = document.querySelector( '#navbarList');
+ 
+document.addEventListener( 'click', (e) => {
+	const space = e.composedPath().includes(div);
+ 
+	if ( ! space) {
+		div.classList.remove("show");
+        
+	}
+})
+
+const but = document.querySelector( '#but');
+ 
+document.addEventListener( 'click', (e) => {
+	const get = e.composedPath().includes(but);
+ 
+	if ( get) {
+		div.classList.remove("show");
+        
+	}
+})
+
+
