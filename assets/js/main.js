@@ -42,7 +42,7 @@ document.addEventListener( 'click', (e) => {
 
 const but = document.querySelector( '#but');
  
-document.addEventListener( 'click', (e) => {
+document.addEventListener( 'click',  (e) => {
 	const get = e.composedPath().includes(but);
  
 	if ( get) {
