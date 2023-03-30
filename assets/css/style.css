@@ -1,48 +1,63 @@
-
-d{
-    color: rgb(255, 183, 0);
-    
-}
-img.logo{
-    width: 200px;
-    height: auto
-}
-
-@media screen and (min-width: 0px) and (max-width: 440px) {
-  img.logo {
-    width: 135px;
-    height: auto;
-    
-  }  
-}
-@media screen {
-    div#navbat{
-       size: 10%;
-        }
-}
-
-nav#mainNav{
-  background-color: rgb(78, 78, 78)
-}
-
-.slide{
-  height: 200px;
-  background-size: cover;
-
-
-}
-#carousel {
-  padding-bottom: 0px;
-  padding-top: 50px;
-}
+/* main presets */
 section{
   padding-top: 100px;
   padding-bottom: 100px;
 }
 
-#slider h2{
-
-color: black;
-text-align: center;
-
+d{
+  color: rgb(255, 183, 0); 
 }
+/* main presets */
+
+
+/* navbar */
+nav#mainNav{
+  background-color: rgb(78, 78, 78)
+}
+
+#phonenumber{
+  font-size: 65%;
+}
+/* navbar */
+
+
+/* Logo */
+#logo{
+    width: 200px;
+    height: auto
+}
+
+@media screen and (min-width: 0px) and (max-width: 440px) {
+#logo {
+    width: 135px;
+    height: auto;
+    
+  }  
+}
+/* Logo */
+
+
+/* slider */
+#carousel {
+  padding-bottom: 0px;
+  padding-top: 50px;
+}
+
+#slider h2{
+  color: black;
+  text-align: center;
+  }
+
+  .slide{
+    height: 200px;
+    background-size: cover;
+  }
+/* slider */
+
+/* cars */
+#cars{
+  padding-top: 0px;
+  margin-bottom: -1px;
+  padding-bottom: 0px;
+}
+/* cars */
