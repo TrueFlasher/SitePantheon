@@ -167,7 +167,7 @@
     <section id="about">
         <div class="container">
                 <div class="col-lg-12 text-center">
-                    <h2 class="text-uppercase">О компании</h2>
+                    <h2 class="text-uppercase" style="padding-bottom: 10px;">О компании</h2>
                     <span>ООО «ПАНТЕОН» — на рынке работает с 2017 года. Компания специализируется на оказании услуг по грузоперевозкам, строительно монтажные работы, капитальный ремонт, текущий ремонт, демонтаж, фасадные работы, кровельные работы, электрика, благоустройство, снос строений, аренда спецтехники, строительные работы, ремонт и обслуживание грузовых автомобилей. Мы предлагаем услуги по доставке товаров народного потребления, а так же осуществляем перевозку песка, щебня, асфальтной крошки и прочие нерудные строительные материалы. Поможем в сфере вывоза снега. Наша команда специалистов широкого профиля, выполнит все поставленные перед ней задачи точно и в срок. В нашей компании имеются специалисты со стажем более 15 лет. Большой парк собственной техники позволяет оперативно справляться с поставленными задачами. Нам можно доверять!</span>
                 </div>
 
@@ -279,13 +279,13 @@
                             </div>
                             <div class="col-md-4">
 
-                                <div class="form-group mb-3"><input class="form-control" type="tel" placeholder="Телефон*" required="">
+                                <div class="form-group mb-3"><input class="form-control" type="tel" id="phone" placeholder="Телефон*" required="">
                                     <small class="form-text text-danger lead"></small></div>
                         </div>
                         <div class="col-md-4">
                             <div class="w-100"></div>
                                 <div class="col-lg-12 text-center">
-                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Отправить Заявку</button>
+                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="button" onclick="sendEmail()">Отправить Заявку</button>
                             </div>
                     </div>
 
@@ -494,7 +494,7 @@
                                         </tr>
                                         <tr>
                                             <td>Объем кузова</td>
-                                            <td>20 куб. м.</td>
+                                            <td>20 куб.м.</td>
                                         </tr>
 
                                     </tbody>
@@ -519,8 +519,6 @@
     <script src="assets/presets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/presets/owl/js/owl.carousel.min.js"></script>
     <script src="https://kit.fontawesome.com/dd20e73b95.js" crossorigin="anonymous"></script>
-
-
 <!-- scripts -->
 </body>
 </html>
