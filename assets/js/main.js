@@ -39,3 +39,20 @@ document.addEventListener( 'click',  (e) => {
 	}
 })
 
+
+function sendEmail() {
+    var name = document.getElementById('name').value;
+    var phone = document.getElementById('phone').value;
+    
+    Email.send({
+      Host: "smtp.gmail.com",
+      Username: "ВАШ_EMAIL",
+      Password: "ПАРОЛЬ",
+      To: "EMAIL_ПОЛУЧАТЕЛЯ",
+      From: "ВАШ_EMAIL",
+      Subject: "Новое сообщение",
+      Body: "Имя: " + name + "<br>Телефон: " + phone
+    }).then(
+      message => alert("Сообщение отправлено!")
+    );
+  }
